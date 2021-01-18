@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIform.GuiForm">
+  <grid id="27dc6" binding="Panel1" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="930" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15433564"/>
+      <preferredSize width="600" height="219"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a48b7" class="javax.swing.JRadioButton" binding="RD1">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="1 Day"/>
+          <selected value="true"/>
+          <text value="1 Day"/>
+        </properties>
+      </component>
+      <component id="8bb37" class="javax.swing.JRadioButton" binding="RD3">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="1 Week"/>
+          <text value="1 Week"/>
+        </properties>
+      </component>
+      <component id="10538" class="javax.swing.JRadioButton" binding="RD5">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="3 Months"/>
+          <text value="3 Months"/>
+        </properties>
+      </component>
+      <component id="31473" class="javax.swing.JRadioButton" binding="RD7">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="1 Year"/>
+          <text value="1 Year"/>
+        </properties>
+      </component>
+      <component id="8068b" class="javax.swing.JRadioButton" binding="RD9">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="5 Years"/>
+          <text value="5 Years"/>
+        </properties>
+      </component>
+      <component id="a2532" class="javax.swing.JRadioButton" binding="RD2">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="5 Day"/>
+          <text value="5 Day"/>
+        </properties>
+      </component>
+      <component id="7aaea" class="javax.swing.JRadioButton" binding="RD4">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="1 Month"/>
+          <text value="1 Month"/>
+        </properties>
+      </component>
+      <component id="98667" class="javax.swing.JRadioButton" binding="RD6">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="6 Months"/>
+          <text value="6 Months"/>
+        </properties>
+      </component>
+      <component id="72796" class="javax.swing.JRadioButton" binding="RD8">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="2 Years"/>
+          <text value="2 Years"/>
+        </properties>
+      </component>
+      <component id="94bec" class="javax.swing.JRadioButton" binding="RD10">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15433564"/>
+          <font name="Copperplate Gothic Bold"/>
+          <foreground color="-12500671"/>
+          <label value="MAX"/>
+          <text value="MAX"/>
+        </properties>
+      </component>
+      <component id="e08b9" class="javax.swing.JButton" binding="createAllDurationsButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="-1"/>
+            <preferred-size width="250" height="35"/>
+            <maximum-size width="300" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12500671"/>
+          <font name="Copperplate Gothic Light"/>
+          <foreground color="-15433564"/>
+          <text value="Create All Durations"/>
+        </properties>
+      </component>
+      <component id="22b13" class="javax.swing.JLabel" binding="Label2">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Bold"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8647" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Symbol"/>
+        </properties>
+      </component>
+      <component id="e6b6c" class="javax.swing.JLabel" binding="Label1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Key"/>
+        </properties>
+      </component>
+      <component id="e5115" class="javax.swing.JButton" binding="CreateBySelect">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="-1"/>
+            <preferred-size width="250" height="35"/>
+            <maximum-size width="300" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12500671"/>
+          <font name="Copperplate Gothic Light"/>
+          <foreground color="-15433564"/>
+          <text value="Create By Durations"/>
+        </properties>
+      </component>
+      <component id="36361" class="javax.swing.JLabel" binding="LBcopy">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas"/>
+          <foreground color="-12500671"/>
+          <text value="  Masoud Naji"/>
+        </properties>
+      </component>
+      <component id="95e0f" class="javax.swing.JButton" binding="btnpst2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="-1"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12500671"/>
+          <font name="Copperplate Gothic Light"/>
+          <foreground color="-15433564"/>
+          <text value="Past"/>
+        </properties>
+      </component>
+      <component id="be887" class="javax.swing.JButton" binding="btnpst1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="-1"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12500671"/>
+          <font name="Copperplate Gothic Light"/>
+          <foreground color="-15433564"/>
+          <text value="Past"/>
+        </properties>
+      </component>
+      <component id="d5fb" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="dce8b" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Duration">
+      <member id="a48b7"/>
+      <member id="8bb37"/>
+      <member id="10538"/>
+      <member id="31473"/>
+      <member id="8068b"/>
+      <member id="a2532"/>
+      <member id="7aaea"/>
+      <member id="98667"/>
+      <member id="72796"/>
+      <member id="94bec"/>
+    </group>
+  </buttonGroups>
+</form>
